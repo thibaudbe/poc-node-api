@@ -1,0 +1,16 @@
+{
+  "name": "poc-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "child-start": "node ./child_process/spawn.js",
+    "execFile-start": "node ./child_process/execFile.js",
+    "spawn-start": "node ./spawn/detach.js",
+    "spawn-test": "ps -ef | grep timer",
+    "fork-start": "node ./fork/parent.js",
+    "fork-http-start": "node ./forkHttp/server.js",
+    "cluster-start": "node ./cluster/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
