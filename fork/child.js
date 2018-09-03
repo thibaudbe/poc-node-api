@@ -1,5 +1,5 @@
 process.on('message', (msg) => {
-  console.log('Message from parent:', msg)
+  console.log('Message from parent :', msg)
 })
 
 let counter = 0

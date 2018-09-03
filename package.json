@@ -9,8 +9,14 @@
     "spawn-test": "ps -ef | grep timer",
     "fork-start": "node ./fork/parent.js",
     "fork-http-start": "node ./forkHttp/server.js",
-    "cluster-start": "node ./cluster/server.js"
+    "cluster-start": "node ./cluster/server.js",
+    "ipc-server": "node ./ipc/server.js",
+    "ipc-process1": "node ./ipc/process1.js",
+    "ipc-process2": "node ./ipc/process2.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-ipc": "9.1.1"
+  }
 }
